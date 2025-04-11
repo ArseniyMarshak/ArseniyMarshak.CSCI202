@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+body {
+  text-align: center;
+  font-family: "Inria Sans", sans-serif;
+  background-color: #f6ebe0;
+}
+ol {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ol li {
+  font-family: "Inria Sans", sans-serif;
+  border: lightblue;
+  border-style: dashed;
+  margin: 0em 1.5em;
+  padding: 0.5em;
+  font-size: 9pt;
+}
+.story {
+  padding: 0.5em 10em;
+  font-size: 16pt;
+  line-height: 50px;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+.warning {
+  width: 5%;
+}
+.home {
+  text-decoration: none;
+  color: black;
+}
+.home :hover {
+  color: lightblue;
+}
+a,
+a :visited {
+  text-decoration: none;
+  color: darkblue;
+}
+a :hover {
+  color: darkcyan;
+}
