@@ -3,23 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arseniy Marshak</title>
+    <title>CSCI 202 Homepage</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+      * {
+        color: #272962;
+        font-family: "Rubik", serif;
+      }
+      body {
+        text-align: center;
+        background-image: linear-gradient(#edb749, #90e6e3);
+        padding: 10px;
+      }
+      p {
+        padding: 10px;
+      }
+      .block {
+        display: block;
+        background-color: #90e6e388;
+        border-color: black;
+        border: solid;
+        box-shadow: 5px 5px 5px #4d4e7d;
+        transition: box-shadow 0.5s ease;
+        border-radius: 20px;
+      }
+      .block a {
+        text-decoration: none;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: minmax(0px, 500px);
+        gap: 50px;
+      }
+      .block:hover {
+        box-shadow: 10px 10px 10px #4d797d;
+      }
+      img {
+        width: 300px;
+        height: auto;
+      }
+    </style>
   </head>
   <main>
     <body>
-      <h1>Arseniy Marshaks CSCI 202 Assignments</h1>
-      <h2>Assignment List</h2>
-    <ol>
-      <li> <a href="Assignment 1/">Assignment 1</a> </li>
-      <li> <a href="">Assignment 2- UNDER CONSTRUCTION</a> </li> 
-      <li> <a href="">Assignment 3 - UNDER CONSTRUCTION</a> </li>
-      <li> <a href="">Assignment 4 - UNDER CONSTRUCTION</a> </li> 
-      <li> <a href="">Assignment 5 - UNDER CONSTRUCTION</a> </li>  
-      <li> <a href="">Assignment 6 - UNDER CONSTRUCTION</a> </li>  
-    </ol>
-      
+      <h1>Arseniy Marshak</h1>
+      <h2>CSCI 202 | Dynamic Webpages | Assignments Portfolio</h2>
+      <div class="grid">
+        <div class="block">
+          <a href="Assigment 1/">
+            <h2>Assignment 1</h2>
+            <img src="img/Assignment1.png" alt="" />
+            <h3>Hypertext Story/Self Portrait</h3>
+            <h4>Description</h4>
+            <p>
+              In this assignment I used HTML and CSS to create a hypertext story
+              of my journey as a student at WWU. The goal of the assignment is
+              to create a hypertext story or self portrait to demonstrate the
+              internet's capability as a medium of communication.
+            </p>
+          </a>
+        </div>
+        <div class="block">
+          <a href="Assigment 2/">
+            <h2>Assignment 2</h2>
+            <img src="" alt="" />
+            <h3>UNDER CONSTRUCTION</h3>
+            <h4>Description</h4>
+            <p>
+              To be Available 04/17
+            </p>
+          </a>
+        </div>
+        <div class="block">
+          <a href="Assigment 3/">
+            <h2>Assignment 3</h2>
+            <img src="" alt="" />
+            <h3>UNDER CONSRUCTION</h3>
+            <h4>Description</h4>
+            <p>
+              To be Available 04/24
+            </p>
+          </a>
+        </div>
+        <div class="block">
+          <a href="Assigment 4/">
+            <h2>Assignment 4</h2>
+            <img src="" alt="" />
+            <h3>UNDER CONSTRUCTION</h3>
+            <h4>Description</h4>
+            <p>
+              To be Available 04/29
+            </p>
+          </a>
+        </div>
+        <div class="block">
+          <a href="Assigment 5/">
+            <h2>Assignment 5</h2>
+            <img src="" alt="" />
+            <h3>UNDER CONSTRUCTION</h3>
+            <h4>Description</h4>
+            <p>
+              To be Available 05/15
+            </p>
+          </a>
+        </div>
+        <div class="block">
+          <a href="Assigment 6/">
+            <h2>Assignment 6</h2>
+            <img src="" alt="" />
+            <h3>UNDER CONSTRUCTION</h3>
+            <h4>Description</h4>
+            <p>
+              TBD
+            </p>
+          </a>
+        </div>
+      </div>
     </body>
-    </main>
-   
-  
+  </main>
 </html>
