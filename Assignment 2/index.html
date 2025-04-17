@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <script src="script.js"></script>
+    <title>Theme Picker</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Welcome to the Website Theme Picker</h1>
+      <img src="img/paletteGIF.gif" />
+    </div>
+    <div class="grid">
+      <div class="theme_card" onmouseover="cardOver()" onmouseout="cardOut()">
+        <p>
+          Start by selecting a website theme. You can select the themes by
+          clicking on each one of the buttons of the website. If you hover over
+          the theme card you can preview the color, fonts, and style for the
+          website. By clicking on your keyboard number 1 through 4 and watch the
+          magic happen.
+        </p>
+      </div>
+      <div class="buttons">
+        <button class="theme" id="serious" onclick="themeOnClick(this)">
+          Serious Theme
+        </button>
+        <button class="theme" id="simple" onclick="themeOnClick(this)">
+          Simple Theme
+        </button>
+        <button class="theme" id="vibrant" onclick="themeOnClick(this)">
+          Vibrant Theme
+        </button>
+        <button class="theme" id="fun" onclick="themeOnClick(this)">
+          Fun Theme
+        </button>
+      </div>
+      <div class="references">
+        <a
+          href="https://www.shutterstock.com/blog/psychological-color-palettes"
+        >
+          Shutterstock References and Inspirations</a
+        >
+        <br />
+        <a
+          href="https://bejamas.com/blog/minimalist-color-palette-and-typography-in-web-design"
+        >
+          Other References and Inspirations - Bejamas Minimalist Palette</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
