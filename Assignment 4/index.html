@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home Page</title>
+  </head>
+  <body>
+    <h1 class="header p-2 m-0">The Haskell Plaza Story</h1>
+    <p class="containter-fluid p-3" id="explain">
+      Welcome to the Haskell Plaza! A point of campus that we all have traversed
+      through and might have even made a stop on a warm, sunny day to study or
+      soak in the sun. But our connection to our phones has us so sucked into
+      the screen that we forget to <strong>look up and look around.</strong
+      ><br />
+      Today we will explore the plaza and the mini bronze people created by Tom
+      Otterness, we will pair up to collaborate on writing our own stories for
+      the bronze figures.
+    </p>
+    <h2>Rules</h2>
+    <ul class="container-fluid list-unstyled p-0">
+      <li class="list-item p-2">
+        Each figure or set of figures must have a name
+      </li>
+      <li class="list-item p-2">
+        Each figure or set of figures must have a personality
+      </li>
+      <li class="list-item p-2">
+        Keep each story point within 200 words since we are limited on time
+      </li>
+      <li class="list-item p-2">
+        After you're done you will come back to view your story come together on
+        the Home Page
+      </li>
+      <li class="list-item p-2">
+        <strong
+          >Keep in mind that your story must flow based on the order you started
+          in within this plaza</strong
+        >
+      </li>
+    </ul>
+    <button
+      id="start"
+      class="btn btn-info m-3 btn-lg"
+      onclick="document.location='story.html'"
+    >
+      Start Writing Your Story!
+    </button>
+    <div>
+      <textarea
+        id="final"
+        class="form-control w-100 w-lg-75 form-control mt-5"
+        oninput="expand.call(this)"
+        placeholder="Take the journey and watch the story appear here"
+        readonly
+      ></textarea>
+    </div>
+  </body>
+</html>

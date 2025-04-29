@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <title>Story Pieces</title>
+  </head>
+  <body>
+    <div id="first">
+      <h2>The First Story Piece</h2>
+      <textarea
+        id="firstpiece"
+        class="storyInput w-75 storyInput-lg"
+        placeholder="Write in your story"
+        oninput="expand.call(this)"
+      ></textarea>
+    </div>
+    <a href="#second" class="btn btn-secondary p-2">
+      Find the Next Bronze Figure(s)
+    </a>
+    <div id="second">
+      <h2>The Second Story Piece</h2>
+      <textarea
+        id="secondpiece"
+        class="storyInput w-75 storyInput-lg"
+        placeholder="Write in your story"
+        oninput="expand.call(this)"
+      ></textarea>
+    </div>
+    <a href="#third" class="btn btn-secondary p-2">
+      Find the Next Bronze Figure(s)
+    </a>
+    <div id="third">
+      <h2>The Third Story Piece</h2>
+      <textarea
+        class="storyInput w-75 storyInput-lg"
+        placeholder="Write in your story"
+        oninput="expand.call(this)"
+      ></textarea>
+    </div>
+    <a href="#fourth" class="btn btn-secondary p-2">
+      Find the Next Bronze Figure(s)
+    </a>
+    <div id="fourth">
+      <h2>The Fourth Story Piece</h2>
+      <textarea
+        class="storyInput w-75 storyInput-lg"
+        placeholder="Write in your story"
+        oninput="expand.call(this)"
+      ></textarea>
+    </div>
+    <a href="#fifth" class="btn btn-secondary p-2">
+      Find the Next Bronze Figure(s)
+    </a>
+    <div id="fifth">
+      <h2>The Fourth Story Piece</h2>
+      <textarea
+        class="storyInput w-75 storyInput-lg"
+        placeholder="Write in your story"
+        oninput="expand.call(this)"
+        required
+      ></textarea>
+    </div>
+    <a class="btn btn-success btn-lg" href="index.html" onclick="finalStory()">
+      Come see your completed story here!
+    </a>
+  </body>
+</html>
