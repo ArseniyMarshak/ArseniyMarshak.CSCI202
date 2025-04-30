@@ -5,6 +5,9 @@
   scroll-behavior: smooth;
 }
 p {
+  font-size: 14pt;
+}
+li {
   font-size: 10pt;
 }
 .btn {
