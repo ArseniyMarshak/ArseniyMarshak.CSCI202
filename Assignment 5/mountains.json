@@ -239,5 +239,29 @@
     "link": "https://en.wikipedia.org/wiki/Dragontail_Peak",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Dragontail_Peak%2C_Colchuck_Lake.jpg/960px-Dragontail_Peak%2C_Colchuck_Lake.jpg",
     "climb": "https://www.peakbagger.com/peak.aspx?pid=2179"
+  },
+  {
+    "title": "Oval Peak",
+    "native_name": "na",
+    "range": "Methow Mountains",
+    "elevation": "8,807 ft/2684.5 m",
+    "prominance": "2,731 ft/832 m",
+    "location": "48.2872°N 120.4251°W",
+    "description": "Oval Peak is the highest peak in the Methow Mountain range which is a subrange of the North Cascades. A difficult climb for anyone looking to summit the peak. Oval Peak is characterized with a dryer climate compared to the rest of the area.",
+    "link": "https://en.wikipedia.org/wiki/Oval_Peak",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Oval_Peak.jpg/1200px-Oval_Peak.jpg",
+    "climb": "https://www.peakbagger.com/peak.aspx?pid=1953"
+  },
+  {
+    "title": "Mesahchie Peak",
+    "native_name": "na",
+    "range": "Central North Cascades",
+    "elevation": "8,799 ft/2682 m",
+    "prominance": "2,255 ft/687 m",
+    "location": "48.5786°N 120.8803°W",
+    "description": "Named after the Chinook word for 'Wicked', the peak is the highest summit along the Ragged Ridge. The mountain itself is covered with glacial ice with major percipitation and rainfall in the colder seasons.",
+    "link": "https://en.wikipedia.org/wiki/Mesahchie_Peak",
+    "image": "https://peakbaggerblobs.blob.core.windows.net/pbphoto/p8880L.jpg",
+    "climb": "https://www.peakbagger.com/peak.aspx?pid=1822"
   }
 ]
